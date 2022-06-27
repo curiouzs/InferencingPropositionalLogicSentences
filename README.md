@@ -81,8 +81,7 @@ wumpus_kb.tell(B44)
 wumpus_kb.tell(B42)
 wumpus_kb.tell(S12 | '<=>' | ((W22 | W13)))
 wumpus_kb.tell(~B12 | '<=>' | ((~P22 | ~P13)))
-wumpus_kb.tell(B23 | '<=>' | ((P33 | P34)))
-
+wumpus_kb.tell(B23 | '<=>' | ((P33 | P34)))e
 wumpus_kb.tell(B31 | '<=>' | ((P41| P23)))
 wumpus_kb.tell(B32 | '<=>' | ((P33| P42)))
 wumpus_kb.tell(B34 | '<=>' | ((P33| P44)))
@@ -91,9 +90,15 @@ wumpus_kb.ask_if_true(~P41)
 ```
 ## OUTPUT:
 ## Checking in algorithm:
+![21](https://user-images.githubusercontent.com/75235090/175758834-b2efad2d-195c-4ca9-93c7-23117c4baf08.png)
+![22](https://user-images.githubusercontent.com/75235090/175758841-854bdea3-ab4f-4730-881c-4a787ad4ffc5.png)
 ## Propositional logic:
+![23](https://user-images.githubusercontent.com/75235090/175758880-3a98ba74-2657-4bc9-9918-d50cf79c2fd2.png)
 ## Starting of the game:
+![24](https://user-images.githubusercontent.com/75235090/175758904-9e04ae05-4c41-45d6-9587-c16d28775b64.png)
 ## Mid of the game:
+![25](https://user-images.githubusercontent.com/75235090/175758917-a1b07f7e-0864-4ed8-9514-b881778a5331.png)
 ## End of the game:
+![26](https://user-images.githubusercontent.com/75235090/175758937-bd118486-7374-431a-8ec3-fb71ba5e1871.png)
 ## RESULT
 Thus, the developed agent can predict the next move in the wumpus game using propositional logic sentences .
